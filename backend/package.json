@@ -1,0 +1,27 @@
+{
+  "name": "devradar",
+  "version": "1.0.0",
+  "description": "Projeto resultado da Semana Omnistack #10",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvaroJr10/devradar.git"
+  },
+  "author": "Alvaro Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlvaroJr10/devRadar"
+  },
+  "homepage": "https://github.com/AlvaroJr10/devradar#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
